@@ -4,7 +4,7 @@ const NavBar = ({ user }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="#">
-        React
+        React Demo
       </Link>
       <button
         className="navbar-toggler"
@@ -70,6 +70,7 @@ const NavBar = ({ user }) => {
                   Logout
                 </NavLink>
               </li>
+              <li className="nav-item">{process.env.REACT_APP_VERSION}</li>
             </React.Fragment>
           )}
         </ul>
