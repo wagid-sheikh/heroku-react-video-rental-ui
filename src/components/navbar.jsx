@@ -4,7 +4,7 @@ const NavBar = ({ user }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="#">
-        React Sample App
+        React
       </Link>
       <button
         className="navbar-toggler"
