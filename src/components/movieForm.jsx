@@ -63,7 +63,6 @@ class MovieForm extends Form {
       if (movie) this.setState({ data: this.mapToViewModel(movie) });
     } catch (ex) {
       if (ex.response && ex.response.status === 404) {
-        console.log("i am the one");
         this.props.history.replace("/not-found");
       }
     }
